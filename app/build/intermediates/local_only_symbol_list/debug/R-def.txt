@@ -26,6 +26,7 @@ id editTxtUserNameReg
 id editTxtUsername
 id txtBackToLogin
 id txtRegister
+layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
