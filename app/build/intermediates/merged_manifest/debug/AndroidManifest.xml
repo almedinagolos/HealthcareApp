@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.HealthcareApp" >
         <activity
+            android:name="com.example.healthcareapp.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.healthcareapp.RegisterActivity"
             android:exported="false" />
         <activity

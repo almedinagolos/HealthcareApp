@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\almedina\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:5:5-28:19
+17-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:5:5-31:19
 18        android:allowBackup="true"
 18-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,51 +44,57 @@
 29-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:13:9-51
 30        <activity
 30-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.healthcareapp.RegisterActivity"
-31-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:16:13-45
+31            android:name="com.example.healthcareapp.HomeActivity"
+31-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:16:13-41
 32            android:exported="false" />
 32-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
-33-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:18:9-27:20
-34            android:name="com.example.healthcareapp.LoginActivity"
-34-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:19:13-42
-35            android:exported="true"
-35-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:20:13-36
-36            android:theme="@style/Theme.HealthcareApp" >
-36-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:21:13-55
-37            <intent-filter>
-37-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:22:13-26:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:23:17-69
-38-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:23:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:25:17-77
-40-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:25:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <provider
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-46            android:authorities="com.example.healthcareapp.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-48            <meta-data
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+33-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.healthcareapp.RegisterActivity"
+34-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:19:13-45
+35            android:exported="false" />
+35-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:21:9-30:20
+37            android:name="com.example.healthcareapp.LoginActivity"
+37-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:22:13-42
+38            android:exported="true"
+38-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:23:13-36
+39            android:theme="@style/Theme.HealthcareApp" >
+39-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:24:13-55
+40            <intent-filter>
+40-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:25:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:26:17-69
+41-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:28:17-77
+43-->C:\Users\almedina\AndroidStudioProjects\HealthcareApp\app\src\main\AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.example.healthcareapp.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-54        </provider>
-55    </application>
-56
-57</manifest>
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\almedina\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\almedina\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
