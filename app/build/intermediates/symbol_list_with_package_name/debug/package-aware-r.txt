@@ -2923,6 +2923,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_baseline_email_24
 drawable ic_baseline_person_24
 drawable ic_baseline_security_24
 drawable ic_clear_black_24
@@ -3112,6 +3113,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnLogin
+id btnRegister
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3185,7 +3187,11 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTxtConfirmPass
+id editTxtEmail
 id editTxtPassword
+id editTxtRegPass
+id editTxtUserNameReg
 id editTxtUsername
 id edit_query
 id elastic
@@ -3486,6 +3492,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtBackToLogin
 id txtRegister
 id unchecked
 id uniform
